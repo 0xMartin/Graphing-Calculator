@@ -4,7 +4,7 @@
    All menu, events and rendering
    autor: Martin Krcma
    krcmamartin@outlook.com
-   8. 10. 2019 -
+   Last update: 19. 12. 2019
 
    BUTTON ARRAY
    0  - 7

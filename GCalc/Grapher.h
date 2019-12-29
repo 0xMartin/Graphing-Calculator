@@ -1,3 +1,7 @@
+/**
+ * autor: Martin Krcma
+ * Last update: 19. 12. 2019
+ */
 #ifndef _GRAPHER_H_
 #define _GRAPHER_H_
 

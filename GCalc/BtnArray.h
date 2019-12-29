@@ -2,7 +2,7 @@
    GCalc 3.0 - controler for button array 4x4
    autor: Martin Krcma
    krcmamartin@outlook.com
-   8. 10. 2019
+   Last update: 19. 12. 2019
 */
 #ifndef _BTNARRAY_H_
 #define _BTNARRAY_H_

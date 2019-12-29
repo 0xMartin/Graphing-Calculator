@@ -2,7 +2,7 @@
    GCalc 3.0
    autor: Martin Krcma
    krcmamartin@outlook.com
-   7. 10. 2019 -
+   Last update: 19. 12. 2019
 */
 
 #define _BTN_DEBUG_
