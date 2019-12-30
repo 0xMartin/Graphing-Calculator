@@ -1,11 +1,11 @@
 # Graphing-Calculator
-Graphing calculator using atmega328p. Calculator is able to calculating mathematical and logical expressions. As display use nokia5110 and for input use 4x4 array of micro switches + 1x power switch. Input input voltage of pcb board is 7.2-15V.
+Graphing calculator using __atmega328p__. Calculator is able to calculating mathematical and logical expressions. As display use __nokia 5110__ and for input use __4x4 array of micro switches__ + 1x power switch. Input input voltage of pcb board is 7.2-15V.
 
 ## Calculator modes
- * Calculator
- * Grapher
- * Ploter
- * Logic parser
+ * __Calculator__ - calculate value of mathematical expression
+ * __Grapher__ - drawing graphs of typed functins f(x)
+ * __Ploter__ - ploting graphs of typed functins f(x, y)
+ * __Logic parser__ - user type logical expression with variables and constants and than changing value of variables and calculator showing final value of expression
  
 ## Expression parser
 Parser in programed in c++ and work for arduino and desktop aplications (with some corestions). This parser first replace all constants (e, pi) by numbers and after that evaluate all brackets than all unary operations, binary operations and on end sum all particions of expression. 
@@ -14,9 +14,9 @@ Parser in programed in c++ and work for arduino and desktop aplications (with so
 
 ### Supported operations
 * Math
-  * Default operations: +, -, *, /, ^
-  * Brackets: (, ), |
-  * Functions: sin, cos, tan, asin, acos, atan, log, log10
+  * __Default operations:__ +, -, *, /, ^
+  * __Brackets:__ (, ), |
+  * __Functions:__ sin, cos, tan, asin, acos, atan, log, log10
     * All functions hava specific ascii code in expression string
       ```c++
       #define SIN -128
@@ -30,13 +30,12 @@ Parser in programed in c++ and work for arduino and desktop aplications (with so
       #define PI -120
       ```
 * Logic
-  * Not: !
-  * Or: |
-  * And: &
-  * Equivalency: =
+  * __Not:__ !
+  * __Or:__ |
+  * __And:__ &
+  * __Equivalency:__ =
 
 ### Main part of parser
-
 Arguments are expression and bool logic + aritmetic. If bool logic is true then parser will parsing logic expression or if bool aritmetis is true then parser will parsing aritmetic expression. Both bool can be true in same time.
 
 ```c++
@@ -102,6 +101,14 @@ double ExpressionParser::getValueOfExpression(String expression, bool logic, boo
 ## PCB design
  
 ## Case model
+Case of calculator is made for two parts (top and bottom), parts are connected together be four screws.
+
+> Top
+<img src="https://github.com/0xMartin/Graphing-Calculator/blob/master/doc/case_top.PNG" width=50%>
+
+> Bottom
+<img src="https://github.com/0xMartin/Graphing-Calculator/blob/master/doc/case_buttom.PNG" width=50%>
+
 
 ## Author
 * Martin Krčma
