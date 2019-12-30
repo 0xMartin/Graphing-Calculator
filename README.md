@@ -103,8 +103,8 @@ double ExpressionParser::getValueOfExpression(String expression, bool logic, boo
  
 ## Case model
 
-# Author
+## Author
 * Martin Krčma
 
-# License
+## License
 * This project is licensed under Apache License 2.0 - see the [LICENSE.md](https://github.com/0xMartin/Graphing-Calculator/blob/master/LICENSE) file for details
