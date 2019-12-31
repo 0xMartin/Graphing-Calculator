@@ -98,6 +98,8 @@ double ExpressionParser::getValueOfExpression(String expression, bool logic, boo
 
 ## Circuit schematic
 
+<img src="https://github.com/0xMartin/Graphing-Calculator/blob/master/doc/V%C3%BDst%C5%99i%C5%BEek.PNG" width=100%>
+
 ## PCB design
  
 ## Case model
