@@ -1,5 +1,5 @@
 # Graphing-Calculator
-Graphing calculator using __atmega328p__. Calculator is able to calculating mathematical and logical expressions. As display use __nokia 5110__ and for input use __4x4 array of micro switches__ + 1x power switch. Input input voltage of pcb board is 7.2-15V.
+Graphing calculator using __atmega328p__. Calculator is able to calculating mathematical and logical expressions. As display use __nokia 5110__ and for input use __4x4 array of micro switches__ + 1x power switch. Input input voltage of pcb board is 7-35V.
 
 ## Calculator modes
  * __Calculator__ - calculate value of mathematical expression
@@ -97,10 +97,15 @@ double ExpressionParser::getValueOfExpression(String expression, bool logic, boo
 ## Mode: Logic parser
 
 ## Circuit schematic
+Switches in schematic are represented by resistores. Input voltage must be heigher than 7V. Compunent __U3__ 7805 make 5V for pcb and __U4__ TS1117BCW33 make 3.3V for display __U2__ Nokia5110. Resistores __R7__ and __R6__ are for input voltage measuring. On right side of schematics is 4x4 button array. Down side are inputs pins for programing (Vcc, Gnd, Tx, Rx, Dtr). Crystal frequency: __16 MHz__.
 
 <img src="https://github.com/0xMartin/Graphing-Calculator/blob/master/doc/V%C3%BDst%C5%99i%C5%BEek.PNG" width=100%>
 
 ## PCB design
+One left side is top of pcb and on right is bottom. 
+> Size: 100mm x 56.65mm
+
+<img src="https://github.com/0xMartin/Graphing-Calculator/blob/master/doc/pcb_top_bottom.png" width=100%>
  
 ## Case model
 Case of calculator is made for two parts (top and bottom), parts are connected together be four screws.
