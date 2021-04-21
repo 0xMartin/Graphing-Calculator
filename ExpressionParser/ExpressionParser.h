@@ -1,7 +1,7 @@
 /*
 	Expression parser 3.2
 	Last-update: 29. 10. 2019
-	Author: Martin Krèma
+	Author: Martin Krcma
 
 	Math operations: 
 	+	add	
