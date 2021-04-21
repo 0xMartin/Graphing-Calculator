@@ -19,8 +19,8 @@ Parser in programed in c++ and work for arduino and desktop aplications (with so
   * __Default operations:__ +, -, *, /, ^
   * __Brackets:__ (, ), |
   * __Functions:__ sin, cos, tan, asin, acos, atan, log, log10
-  * Its necessary to change the appearance of the character to match the individual functions
     * All functions hava specific ascii code in expression string
+  * Its necessary to change the appearance of the character to match the individual functions
       ```c++
       #define SIN -128
       #define COS -127
