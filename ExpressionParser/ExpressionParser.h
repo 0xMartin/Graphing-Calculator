@@ -1,7 +1,7 @@
 /*
 	Expression parser 3.2
-	Last-updata: 29. 10. 2019
-	Author: Martin Krèma
+	Last-update: 29. 10. 2019
+	Author: Martin KrÃ¨ma
 
 	Math operations: 
 	+	add	
@@ -95,7 +95,7 @@ class ExpressionParser
 		//sum all values
 		double sum(String* expression);
 
-		//binary operations × ÷ ^ & | =
+		//binary operations Ã— Ã· ^ & | =
 		void binaryOperations(String* expression, char operation, bool forward);
 
 		//unary operator (for one number)
